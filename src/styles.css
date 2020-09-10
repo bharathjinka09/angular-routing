@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+nav a.active {
+  color: black !important;
+}
+.items li.selected {
+  background: #cfd8dc;
+  color: white;
+}
+.items {
+  list-style: none;
+}
+
+.badge {
+  background: skyblue;
+  cursor: pointer;
+  margin: 2px;
+  font-size: large;
+}
